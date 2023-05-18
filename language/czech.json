@@ -1,0 +1,98 @@
+{
+    "errors":{
+        "missingArgsTitle":"Neplatny Argument!",
+        "missingArgsDescription":"Chybí Argument",
+        "noPermsTitle":"Nemáš práva!",
+        "noPermsDescription":"Potřebujes `ADMINISTRATOR`roli nebo byt v listině povolenych roli!",
+        "noPermsDelete":"Pouze Admini muůřou mazat ticket!",
+        "chooseFromListTitle":"Neplatný ID",
+        "chooseFromListDescription":"Vyber si jedno z ID níže:",
+        "boterror":"Bot Chyba!",
+        "notInTicketTitle":"Nejsi v ticketu!",
+        "notInTicketDescription":"Tenhle příkaz nefunguje mimo ticket!",
+        "ticketDoesntExist":"Tenhle ticket už neexistuje !",
+        "roleDoesntExist":"Tenhle role už neexistuje!",
+        "anotherOption":"This option is not a ticket but another type!",
+        "maxAmountTitle":"Max počet byl dosáhnut!",
+        "maxAmountDescription":"Dosáhl jsi max počet povolených ticketu!\nSo nemůžeš si vytvořit nový!",
+        "somethingWentWrong":"**Něco se pokazilo!**\nProsím zkus to jindy!"
+    },
+    "commands":{
+        "userAddedTitle":"Přidat {0} do tohohle ticketu!",
+        "userRemovedTitle":"Odstranit {0} z tohohle ticketu!",
+        "renameTitle":"Změnit jmeno na {0}!",
+        "closeTitle":"Zavři tenhle ticket!",
+        "deleteTitle":"Mažu ticket...",
+        "reopenTitle":"Znovu otevíram ticket",
+        
+        "claimTitle":"Ticket nyní převzal {0}",
+        "unclaimTitle":"Ticket už není převzaný",
+        "changeTitle":"Změněn typ ticketu {0}!",
+
+        "statsTitle":"Tady je info o ticketu {0}!",
+        "autocloseTitle":"Tento ticketu bude automaticky uzavřen za {0}!",
+        "autocloseRejectTitle":"Tento ticketu už nebude automaticky uzavřen!",
+        "autocloseWarn":"Toto zavře pouze neaktivní tickety!",
+
+        "goToTicket":"běž do ticketu",
+        "ticketWarning":"The embed is in the message below!",
+        "maxTicketWarning":"**Warning:** _Můžeš vytvořit pouze {0} v tuhle chvíli!_"
+    },
+    "helpMenu":{
+        "title":"Dostupné příkazy:",
+        "header1":"**Běž do {0} pro vytvoření ticketi!**\n\n",
+        "header2":"**Použíj příkaz `/nový` nebo `/ticket` pro vytvoření ticketu**\n\n",
+
+        "msgCmd":"Vytvoř embed s tlačíky. (admins only)",
+        "renameCmd":"Přejmenovat ticket. (no spaces)",
+        "closeCmd":"Zavřít ticket.",
+        "deleteCmd":"Odstranit ticket.",
+        "addCmd":"Pridat uživatele do ticketu.",
+        "removeCmd":"Odebrat uživatele z ticketu.",
+        "reopenCmd":"Re-Open a ticket after it was closed.",
+        "changeCmd":"Změnit typ ticketu.",
+        "claimCmd":"Převzi ticket.",
+        "unclaimCmd":"Uvolnit ticket.",
+        "statsCmd":"Zobrazit info o ticketu.",
+        "autocloseCmd":"Nastavit automatické uzavření ticketu"
+    },
+    "buttons":{
+        "close":"Zavřit ticket",
+        "delete":"Vymazat ticket",
+        "reopen":"Znovu otevřít ticket",
+        "closeWithReason":"zavřít s důvodem"
+    },
+    "messages":{
+        "closedDescription":"Pouze admini muzou zde psát ted!\n\n*Klikni na  tlačítko níže pro smazání nebo pro znovu otevření tohohle ticketu!*",
+        "createdTitle":"Ticket otevřen!",
+        "createdDescription":"Tvůj ticket je vytvořem, můžeš si ho všimnout pomocí pingu!",
+
+        "newTicketDmTitle":"Nový ticket!",
+        "closedTicketDmTitle":"Ticket Zavřený!",
+        "deletedTicketDmTitle":"Ticket Odstranen!",
+        "closedTicketDmDescription":"Tvuj ticket je uzavřen!",
+        "deletedTicketDmDescription":"Tvuj ticket byl smazan!",
+        "reopenTicketDmTitle":"Ticket je znovu otevřený!",
+        "reopenTicketDmDescription":"Tvuj ticket byl znovu ovetřený!",
+
+        "chooseCategory":"Vyber si kategorii:",
+        "gettingdeleted":"Ticket bude vymazan...",
+
+        "none":"žádný",
+        "reason":"důvod",
+        "createdat":"otevřeno v",
+        "openedby":"otevřel",
+        "deletedby":"smazano uzivatelem",
+        "closedby":"zavreno uzivatelem",
+        
+        "modalreason":"Jakž byl důvod k zavření toho ticketu?",
+        "chooseATicket": "Vyber ticket"
+    },
+    "transcripts":{
+        "title":"Přepis",
+        "processed":"Tento přepis se zpracoval",
+        "wait":"Prosím počkej!",
+        "estimated":"Odhadovaný čas",
+        "available":"Záloha je uložena zde!"
+    }
+}

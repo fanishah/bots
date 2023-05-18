@@ -1,0 +1,398 @@
+{
+  "color": "#ffffff",
+  "serverId": "901758939421614100",
+  "token": {
+    "value": "MTA2MDY4NDY0MjE5MTE2MzU4Mw.GSOh-Q.KEQYMtozvWlkLfHazTWS9LOUahO_-wNwr9l-2M",
+    "fromENV": false
+  },
+  "adminRoles": ["1108248839288270929"],
+  "prefix": "!ticket ",
+  "languageFile": "english",
+
+  "status": {
+    "enabled": true,
+    "type": "WATCHING",
+    "text": "Majestic Sheriff Department"
+  },
+
+  "system": {
+    "maxAmountOfTickets": 1,
+    "dmMessages": false,
+
+    "memberRole": "901758939421614104",
+    "closeMode": "normal",
+
+    "transcripts": "!!!! ALL SETTINGS FOR TRANSCRIPTS ARE LOCATED IN: transcriptconfig.json !!!!",
+
+    "showSlashcmdsInHelp": false,
+    "answerInEphemeralOnOpen": true
+  },
+
+  "SUPPORT": "Take look at our wiki: https://docs.openticket.dj-dj.be or join our discord server: https://discord.dj-dj.be if you need support!",
+  "options": [
+    {
+      "id": "general",
+      "name": "Question",
+      "description": "داشتن هرگونه سوال مرتبط",
+      "icon": "🎫",
+      "label": "سوال",
+      "type": "ticket",
+
+      "color": "gray",
+      "adminroles": ["1108248839288270929"],
+      "readonlyAdminroles": ["902591017109311488"],
+      "channelprefix": "question-",
+      "category": "901758939501297703",
+      "message": "تیکت جدید ایجاد شد",
+      "enableDmOnOpen": true,
+      "ticketmessage": "برای پیگیری و پاسخگویی به تیکت لطفا شکیبا باشید.",
+
+      "thumbnail": {
+        "enable": false,
+        "url": "https://www.example.com/catmemes/cat.png"
+      },
+      "image": {
+        "enable": false,
+        "url": "https://www.dj-dj.be/wp-content/uploads/2022/09/pfp-cropped.png"
+      },
+
+      "closedCategory": {
+        "enable": false,
+        "id": "category id"
+      },
+
+      "autoclose": {
+        "enable": false,
+        "inactiveHours": 24
+      }
+    },
+    {
+      "id": "complaint",
+      "name": "Complaint",
+      "description": "ثبت شکایت",
+      "icon": "🎫",
+      "label": "شکایت",
+      "type": "ticket",
+
+      "color": "gray",
+      "adminroles": ["1108248839288270929"],
+      "readonlyAdminroles": ["902591017109311488"],
+      "channelprefix": "complaint-",
+      "category": "901758939501297703",
+      "message": "تیکت جدید ایجاد شد",
+      "enableDmOnOpen": true,
+      "ticketmessage": "برای پیگیری و پاسخگویی به تیکت لطفا شکیبا باشید.",
+
+      "thumbnail": {
+        "enable": false,
+        "url": "https://www.example.com/catmemes/cat.png"
+      },
+      "image": {
+        "enable": false,
+        "url": "https://www.dj-dj.be/wp-content/uploads/2022/09/pfp-cropped.png"
+      },
+
+      "closedCategory": {
+        "enable": false,
+        "id": "category id"
+      },
+
+      "autoclose": {
+        "enable": false,
+        "inactiveHours": 24
+      }
+    },
+    {
+      "id": "rancup",
+      "name": "Rancup",
+      "description": "ثبت اعتراض به رنک آپ",
+      "icon": "🎫",
+      "label": "اعتراض به رنک آپ",
+      "type": "ticket",
+
+      "color": "gray",
+      "adminroles": ["1108248839288270929"],
+      "readonlyAdminroles": ["902591017109311488"],
+      "channelprefix": "rancup-",
+      "category": "901758939501297703",
+      "message": "تیکت جدید ایجاد شد",
+      "enableDmOnOpen": true,
+      "ticketmessage": "برای پیگیری و پاسخگویی به تیکت لطفا شکیبا باشید.",
+
+      "thumbnail": {
+        "enable": false,
+        "url": "https://www.example.com/catmemes/cat.png"
+      },
+      "image": {
+        "enable": false,
+        "url": "https://www.dj-dj.be/wp-content/uploads/2022/09/pfp-cropped.png"
+      },
+
+      "closedCategory": {
+        "enable": false,
+        "id": "category id"
+      },
+
+      "autoclose": {
+        "enable": false,
+        "inactiveHours": 24
+      }
+    },
+    {
+      "id": "swat",
+      "name": "Ozviat S.W.A.T",
+      "description": "SWAT درخواست عضویت در",
+      "icon": "🎫",
+      "label": "SWAT عضویت در",
+      "type": "ticket",
+
+      "color": "gray",
+      "adminroles": ["1108264371509006428"],
+      "readonlyAdminroles": ["902591017109311488"],
+      "channelprefix": "swat-",
+      "category": "1108266350931091508",
+      "message": "تیکت جدید ایجاد شد",
+      "enableDmOnOpen": true,
+      "ticketmessage": "برای پیگیری و پاسخگویی به تیکت لطفا شکیبا باشید.",
+
+      "thumbnail": {
+        "enable": false,
+        "url": "https://www.example.com/catmemes/cat.png"
+      },
+      "image": {
+        "enable": false,
+        "url": "https://www.dj-dj.be/wp-content/uploads/2022/09/pfp-cropped.png"
+      },
+
+      "closedCategory": {
+        "enable": false,
+        "id": "category id"
+      },
+
+      "autoclose": {
+        "enable": false,
+        "inactiveHours": 24
+      }
+    },
+    {
+      "id": "air",
+      "name": "Ozviat Air",
+      "description": "Air درخواست عضویت در",
+      "icon": "🎫",
+      "label": "Air عضویت در",
+      "type": "ticket",
+
+      "color": "gray",
+      "adminroles": ["1108616769817550858"],
+      "readonlyAdminroles": ["902591017109311488"],
+      "channelprefix": "air-",
+      "category": "1108266350931091508",
+      "message": "تیکت جدید ایجاد شد",
+      "enableDmOnOpen": true,
+      "ticketmessage": "برای پیگیری و پاسخگویی به تیکت لطفا شکیبا باشید.",
+
+      "thumbnail": {
+        "enable": false,
+        "url": "https://www.example.com/catmemes/cat.png"
+      },
+      "image": {
+        "enable": false,
+        "url": "https://www.dj-dj.be/wp-content/uploads/2022/09/pfp-cropped.png"
+      },
+
+      "closedCategory": {
+        "enable": false,
+        "id": "category id"
+      },
+
+      "autoclose": {
+        "enable": false,
+        "inactiveHours": 24
+      }
+    },
+    {
+      "id": "ssg",
+      "name": "Ozviat S.S.G",
+      "description": "S.S.G درخواست عضویت در",
+      "icon": "🎫",
+      "label": "S.S.G عضویت در",
+      "type": "ticket",
+
+      "color": "gray",
+      "adminroles": ["1108616703618859048"],
+      "readonlyAdminroles": ["902591017109311488"],
+      "channelprefix": "ssg-",
+      "category": "1108266350931091508",
+      "message": "تیکت جدید ایجاد شد",
+      "enableDmOnOpen": true,
+      "ticketmessage": "برای پیگیری و پاسخگویی به تیکت لطفا شکیبا باشید.",
+
+      "thumbnail": {
+        "enable": false,
+        "url": "https://www.example.com/catmemes/cat.png"
+      },
+      "image": {
+        "enable": false,
+        "url": "https://www.dj-dj.be/wp-content/uploads/2022/09/pfp-cropped.png"
+      },
+
+      "closedCategory": {
+        "enable": false,
+        "id": "category id"
+      },
+
+      "autoclose": {
+        "enable": false,
+        "inactiveHours": 24
+      }
+    },
+    {
+      "id": "srt",
+      "name": "Ozviat S.R.T",
+      "description": "S.R.T درخواست عضویت در",
+      "icon": "🎫",
+      "label": "S.R.T عضویت در",
+      "type": "ticket",
+
+      "color": "gray",
+      "adminroles": ["1108616768404070402"],
+      "readonlyAdminroles": ["902591017109311488"],
+      "channelprefix": "srt-",
+      "category": "1108266350931091508",
+      "message": "تیکت جدید ایجاد شد",
+      "enableDmOnOpen": true,
+      "ticketmessage": "برای پیگیری و پاسخگویی به تیکت لطفا شکیبا باشید.",
+
+      "thumbnail": {
+        "enable": false,
+        "url": "https://www.example.com/catmemes/cat.png"
+      },
+      "image": {
+        "enable": false,
+        "url": "https://www.dj-dj.be/wp-content/uploads/2022/09/pfp-cropped.png"
+      },
+
+      "closedCategory": {
+        "enable": false,
+        "id": "category id"
+      },
+
+      "autoclose": {
+        "enable": false,
+        "inactiveHours": 24
+      }
+    },
+    {
+      "id": "ft",
+      "name": "Ozviat FT",
+      "description": "FT درخواست عضویت در",
+      "icon": "🎫",
+      "label": "FT عضویت در",
+      "type": "ticket",
+
+      "color": "gray",
+      "adminroles": ["1108616957688811574"],
+      "readonlyAdminroles": ["902591017109311488"],
+      "channelprefix": "ft-",
+      "category": "1108266350931091508",
+      "message": "تیکت جدید ایجاد شد",
+      "enableDmOnOpen": true,
+      "ticketmessage": "برای پیگیری و پاسخگویی به تیکت لطفا شکیبا باشید.",
+
+      "thumbnail": {
+        "enable": false,
+        "url": "https://www.example.com/catmemes/cat.png"
+      },
+      "image": {
+        "enable": false,
+        "url": "https://www.dj-dj.be/wp-content/uploads/2022/09/pfp-cropped.png"
+      },
+
+      "closedCategory": {
+        "enable": false,
+        "id": "category id"
+      },
+
+      "autoclose": {
+        "enable": false,
+        "inactiveHours": 24
+      }
+    },
+    {
+      "id": "website",
+      "name": "Website",
+      "description": "Go to our website.",
+      "icon": "✅",
+      "label": "click here",
+      "type": "website",
+
+      "url": "https://www.dj-dj.be"
+    },
+    {
+      "id": "role",
+      "name": "Verify",
+      "description": "Click here to get the verify role.",
+      "icon": "👮🏼",
+      "label": "get a role",
+      "type": "role",
+
+      "color": "red",
+      "roles": ["901758939421614105"],
+      "mode": "add&remove",
+      "enableDmOnOpen": true
+    }
+  ],
+
+  "messages": [
+    {
+      "id": "1108250084312887296",
+      "name": "ایجاد تیکت",
+      "description": "",
+      "dropdown": true,
+
+      "enableFooter": false,
+      "footer": "Open Ticket v3.3.3 - I'm a footer!",
+
+      "enableFooterImage": false,
+      "footerImage": "https://www.example.com/catmemes/cat.png",
+
+      "enableThumbnail": false,
+      "thumbnail": "https://www.example.com/catmemes/cat.png",
+
+      "enableImage": false,
+      "image": "https://www.example.com/catmemes/cat.png",
+
+      "enableCustomColor": false,
+      "color": "#ffffff",
+
+      "options": [
+        "general",
+        "complaint",
+        "rancup",
+        "swat",
+        "air",
+        "ssg",
+        "srt",
+        "ft"
+      ],
+
+      "other": {
+        "enableTicketExplaination": true,
+        "enableMaxTicketsWarning": true,
+
+        "customDropdownPlaceholder": {
+          "enable": true,
+          "text": "انتخاب کنید"
+        },
+        "customCategoryText": {
+          "enable": true,
+          "text": "."
+        },
+        "embedTitleURL": {
+          "enable": false,
+          "url": "https://www.dj-dj.be/projects/open-ticket"
+        }
+      }
+    }
+  ]
+}
